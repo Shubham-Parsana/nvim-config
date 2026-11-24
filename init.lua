@@ -1,2 +1,5 @@
 vim.g.mapleader = " "
-vim.opt.number = true
+vim.g.maplocalleader = "\\"
+
+require("config.options")
+require("config.lazy")
